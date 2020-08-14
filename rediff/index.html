@@ -1,0 +1,179 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rediffmail</title>
+
+    <style>
+    *{
+    	margin:0;
+    	padding:0;
+    }
+    #container{
+    	border:0px solid red;
+    	width:750px;
+    	height:100%;
+    	margin:auto;
+    }
+    #info{
+    color:#676767;
+    font-size:small;
+    }
+    </style>
+</head>
+<body>
+    <div id="home"><a href="Home">Home</a></div>
+    <div id="black"><h1>rediff.<span style="color: #C81C0D;">com</span></h1></div>
+    <hr style="height:3px;border-width:0;color:gray;background-color:lightgray">
+    <div id="container" align=center>
+        <h2>Create a Rediffmail account</h2>
+        <form>
+            <table align=center>
+                <tr>
+                    <td>Full Name</td>
+                    <td><input type="text"></td>
+                    <td id="info">Enter your first name & last name<br>Eg. Sameer Bhagwat</td>
+                </tr>
+                <tr>
+                    <td>Choose a Rediffmail ID</td>
+                    <td><input type="text" placeholder="Email"></td>
+                    <td>@rediffmail.com</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td><button>Check availability</button></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password"></td>
+                    <td id="info" rowspan="2">Password:
+                        <ul>
+                            <li>must contain 6-12 characters</li>
+                            <li>must contain both upper and lower case characters</li>
+                            <li>must contain numeric characters</li>
+                            <li>must contain special characters</li>
+                            <li>should not contain username or firstname or lastname</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Retype Password</td>
+                    <td><input type="password" > </td>
+                </tr>
+                <tr>
+                    <td>Alternate Email Address</td>
+                    <td><input type="email"></td>
+                    <td id="info">If you forgot this password<br>we will send to this account</td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td colspan="2" style="font-size: 12px;"><input type="checkbox" style="width: 2%;">Click if you don't have an alternate ID</td>
+                </tr>
+                <tr>
+                    <td>Mobile No.</td>
+                    <td><select name="country">
+                        <option value="+91" selected>+91</option>
+                        <option value="+1">+1</option>
+                        <option value="+44">+44</option>
+                        <option value="+96">+96</option>
+                    </select><input type="number" style="width: 75%;"></td>
+                    <td id="info">If you forget your password<br>recover your password via text message.</td>
+                </tr>
+                <tr>
+                    <td>Date of Birth</td>
+                    <td><select name="day">
+                        <option value="day">Day</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select><select name="month">
+                        <option value="month">Month</option>
+                        <option value="01">Jan</option>
+                        <option value="02">Feb</option>
+                        <option value="03">Mar</option>
+                        <option value="04">Apr</option>
+                        <option value="04">May</option>
+                        <option value="04">Jun</option>
+                        <option value="04">Jul</option>
+                        <option value="04">Aug</option>
+                        <option value="04">Sep</option>
+                        <option value="04">Oct</option>
+                        <option value="04">Nov</option>
+                        <option value="04">Dec</option>
+                    </select><select name="year">
+                        <option value="day">Year</option>
+                        <option value="01">1997</option>
+                        <option value="02">1998</option>
+                        <option value="03">1999</option>
+                        <option value="04">2000</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" style="width: 10%;" name="gender" value="M"><label for="">Male</label><input type="radio" style="width: 10%;" name="gender"><label for="">Female</label> </td>
+                </tr>
+                <tr>
+                    <td>I live in <span style="float: right;"> Country</span></td>
+                    <td><select name="Country" style="width: 95%;">
+                        <option value="India">India</option>
+                        <option value="USA">USA</option>
+                        <option value="Italy">Italy</option>
+                        <option value="South">South Africa</option>
+                    </select></td>
+                </tr>
+                <tr>
+                	<td><span style="float: right;"> City</span></td>
+                    <td><select name="Country" style="width: 95%;">
+                    	<option value="India">Select</option>
+                        <option value="India">New Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Chennai">Chennai</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><img src="images.jpeg" style="width: 250px;"></td>
+                </tr>
+                <tr>
+                    <td>Enter the text shown above</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="2"><button id="sub">Create my account > > </button></td>
+                </tr>
+            </table>
+        </form>
+        <p id="info" style="font-size:12px ;">By clicking on 'Create my account' above, you confirm that you accept the <span style="color: blue;">terms and conditions</span> & <span style="color: blue;">privacy policy</span> </p>
+    </div>
+</body>
+</html>
