@@ -1,0 +1,122 @@
+*
+{
+	margin: 0;
+    padding: 0;	
+	box-sizing: border-box;
+}
+body{
+	
+    background: url(ap_bg.jpg);
+    background-size: cover;
+	font-family: sans-serif;
+}
+.menu-bar{
+	background: #21618C;
+	text-align: center; 
+}
+.menu-bar ul{
+	display: inline-flex;
+	list-style: none;
+	color: #fff
+}
+.menu-bar ul li{
+	width: 175px;
+	margin: 15px;
+	padding: 10px; 
+} 
+.menu-bar ul li a{
+	text-decoration: none;
+	color: #fff;
+	
+}
+.account, .menu-bar ul li:hover{
+
+	background: #3498DB;
+	border-radius: 3px;
+}
+.sub_menu{
+	display: none;
+}
+.menu-bar ul li:hover .sub_menu{
+	display: block;
+	position: absolute;
+	background: #21618C;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+.menu-bar ul li:hover .sub_menu ul{
+	display: block;
+	margin: 10px;
+}
+.menu-bar ul li:hover .sub_menu ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu-bar ul li:hover .sub_menu ul li : last-child
+{
+	border-bottom:none;
+}
+.menu-bar ul li:hover .sub_menu ul li a:hover{
+	color: #3498DB;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #34495E;
+  color: white;
+  text-align: left;
+  height: 10%;
+  padding: 25px;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+	margin-top:20px;
+}
+.table{
+ margin-left: 500px;
+ font-weight: bold;
+}
+.table input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #21618C;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+	padding: 10px;
+}
+.table input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #3498DB;
+    color: #000;
+}
+.table input[type="reset"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #21618C;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+	padding: 10px;
+	
+}
+.table input[type="reset"]:hover
+{
+    cursor: pointer;
+    background: #3498DB;
+    color: #000;
+}

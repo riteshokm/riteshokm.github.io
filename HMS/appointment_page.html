@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HMS HomePage</title>
+	<link rel="stylesheet" href="ap_style.css">
+</head>
+<body>
+<div class="menu-bar">
+<ul>
+<li class="active"><a href="#">Department</a>
+<div class="sub_menu">
+<ul>
+
+<li><a href="#">Ortho</a></li>
+<li><a href="#">ENT</a></li>
+<li><a href="#">Eye</a></li>
+<li><a href="#">Cardiology</a></li>
+<li><a href="#">X-Ray</a></li>
+<li><a href="#">Blood</a></li>
+
+</ul>
+</div>
+</li>
+<li><a href="#">Emergency</a>
+<div class="sub_menu">
+<ul>
+
+<li><a href="#">Accidents</a></li>
+<li><a href="#">Burns</a></li>
+
+</ul>
+</div>
+</li>
+<li><a href="#">Book Appointment</a></li>
+<li><a href="#">Doctors</a></li>
+<li class="account"><a href="#">My Account</a></li>
+</ul>
+</div>
+<div class="footer">
+<p>About Us</p>
+</div>
+<form><big><big><h1>Appointment</h1><br>
+  <br>
+  </big></big>
+  <div class="table">
+  <table>
+    <tbody>
+		<tr>
+        <td>Doctor Name : <br>
+        </td>
+        <td><input name="doc_name" type="text"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Patient Name or ID : <br>
+        </td>
+        <td><input name="id" type="text">
+        </td>
+      </tr>
+      <tr>
+        <td>Contact : <br></td>
+        <td><input name="contact" type="text"><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Slot : <br>
+        </td>
+        <td>
+		<input name="slot_t" type="radio"> Morning<br>
+        <input name="slot_t" type="radio"> Afternoon<br>
+        <input name="slot_t" type="radio"> Night<br>
+        </td>
+      </tr>
+      <tr>
+        <td>Subject :<br>
+        </td>
+        <td><input name="subject" type="text"><br><br>
+        </td>
+      </tr>
+      <tr>
+        <td>Additional Instructions :<br>
+        </td>
+        <td><textarea cols="30" rows="3" name="instructions"></textarea> </td>
+      </tr>
+    </tbody>
+  </table>
+  <br>
+  <br>
+  <input name="submit" value="Get Appointment" type="submit"> &nbsp; &nbsp; <input name="reset" value="RESET" type="reset"><br>
+  </form>
+</div>
+</body>
+</html>
